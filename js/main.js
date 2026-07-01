@@ -5,94 +5,94 @@
 // Project Data
 const projectsData = [
     {
+        title: 'E-COMMERCE 솔루션 플랫폼 개선 기획',
+        period: '2025.01 — 2025.10',
+        company: '㈜유젠',
+        role: 'UX/UI 기획',
+        description: 'G1 Cloud UXUI 사용성 개선. 상품상세 AI 리뷰 기획, UXUI 대시보드 설계, 관리자 화면 UXUI 개선.',
+        deliverables: '화면설계서, AI 리뷰 기획서, 대시보드 설계서, 관리자 화면 개선안',
+        tools: ['Figma', 'Jira', 'Notion'],
+        achievements: '상품상세 AI 리뷰 도입으로 사용자 구매 결정 지원, 관리자 화면 사용성 개선을 통한 운영 효율성 향상'
+    },
+    {
         title: 'BYLYNN.SHOP 쇼핑몰 플랫폼 구축',
-        period: '2022.01 — 2022.06',
-        company: '프리랜서',
-        role: '서비스 기획 / 화면설계 / 운영',
-        description: '패션 온라인 쇼핑몰 BYLYNN.SHOP의 웹/모바일 플랫폼 기획 및 구축. 대시보드 AI 기능 포함, 상품 영역, 특별할인행사, 주문/배송현황 영역 등 전체 커머스 플랫폼 기획.',
-        deliverables: '화면설계서(Wireframe), IA(정보구조도), 기능 정의서, 대시보드 기획서',
+        period: '2022.10 — 2023.06',
+        company: '㈜유젠',
+        role: '기획 PL',
+        description: '바이린샵 여성 종합쇼핑몰 리뉴얼. G1 CLOUD 도입에 따른 FO UX 설계, 탐색부터 결제까지 전 구간 UX 플로우 설계.',
+        deliverables: '화면설계서(Wireframe), IA(정보구조도), UX 플로우, 전시 매뉴얼, QA 테스트 시나리오',
         tools: ['Figma', 'Excel', 'PowerPoint'],
-        achievements: '관리자 대시보드 AI 통합 설계, 상품관리/주문관리/프로모션 영역 전체 기획, PC/모바일 반응형 화면설계'
+        achievements: '프론트엔드 구매 여정 최적화와 백오피스 구조를 통합한 UX 기획, 오픈 초기 장애 제로화'
     },
     {
-        title: 'G1 Cloud 쇼핑 플랫폼 기획',
-        period: '2021.03 — 2021.09',
-        company: '에이전시',
-        role: '서비스 기획 / 화면설계',
-        description: 'G1 Cloud 패션 커머스 플랫폼의 카테고리/메뉴 구조 설계 및 PC 화면설계. 카테고리 대/중/소 분류 체계 정의, 메뉴 Depth 구조 설계.',
-        deliverables: '화면설계서, 카테고리 분류 체계, 메뉴 구조 정의서',
-        tools: ['Figma', 'Excel'],
-        achievements: '복잡한 카테고리 구조 체계화, 사용자 탐색 경험 최적화'
+        title: 'HYBE 채용 플랫폼 구축',
+        period: '2021',
+        company: '㈜유젠',
+        role: 'UX/UI 기획',
+        description: 'HYBE 채용사이트 구축. 채용 플로우 UX 설계 및 화면 기획.',
+        deliverables: '화면설계서, 채용 프로세스 플로우',
+        tools: ['Figma'],
+        achievements: '채용 플로우 UX 설계, 지원자 경험 최적화'
     },
     {
-        title: '현대백화점 웹사이트/모바일 운영 대행',
-        period: '2018.09 — 2019.12',
-        company: 'PENTABREED',
-        role: '웹/모바일 운영 기획 / 콘텐츠 디자인',
-        description: '현대백화점 대구점 플랫폼 구축 및 현대시티아울렛 쇼핑안내, 카톡플친 콘텐츠 디자인(PI). 기존 가이드 안에서 디자인을 이루었으며, 쇼핑컨텐츠 페이지는 별도의 차별화를 두어 대구점의 컨셉을 확립.',
-        deliverables: '콘텐츠 디자인, 쇼핑안내 페이지, 제휴카드 이벤트 페이지',
-        tools: ['Photoshop', 'Illustrator', 'HTML/CSS'],
-        achievements: '대구점 브랜드 아이덴티티 확립, 모바일 최적화 콘텐츠 제작'
+        title: '피자헛 플랫폼 리뉴얼 제안 및 구축',
+        period: '2020',
+        company: '펜타브리드',
+        role: 'UXUI 기획 PA',
+        description: '제안 단계부터 UX 여정 기반 마케팅 전략을 제시하여 수주 기여. 메인화면부터 주문 프로세스 전반의 화면 설계 및 UT(사용자 테스트) 주도를 통해 주문 전환 플로우의 인터랙션 품질 제고.',
+        deliverables: '제안서, 화면설계서, 사용자 여정 지도, UT 결과 보고서',
+        tools: ['Figma', 'Photoshop'],
+        achievements: 'UX 여정 기반 마케팅 전략 제시로 수주 기여, UT 주도를 통한 주문 전환 플로우 인터랙션 품질 제고'
+    },
+    {
+        title: '고령자를 위한 무인주문시스템 사용성 개선 연구',
+        period: '2019 — 2020',
+        company: '홍익대학교 (석사 논문)',
+        role: '석사 논문 연구',
+        description: '고령자를 위한 무인주문시스템 설계 연구. 대시보드 및 사용자 관점에서의 인사이트를 발췌하는 기획 연구. User Survey, Journey Map, Prototype Design 및 사용성 테스트 수행.',
+        deliverables: '선행연구 정리, 사용자 조사 결과, Journey Map, Prototype 디자인, 사용성 테스트 결과, 석사 학위 논문',
+        tools: ['Figma', '설문조사 도구'],
+        achievements: '고령자 사용성 이슈 도출 및 프로토타입 검증, 석사 학위 취득'
     },
     {
         title: 'SK텔링크 SK7모바일 웹/모바일/APP 운영',
         period: '2018.12 — 2019.12',
-        company: 'PENTABREED',
+        company: '펜타브리드',
         role: '웹/모바일/APP 운영 기획 / 디자인',
-        description: 'SK텔링크 SK7모바일 WEB SITE / MOBILE / SK텔링크 APP 운영 대행. UI/UX 개편을 통한 멤버십 개선 작업으로 고객에게 맞춤 정보를 제공하고, 시시각각 변하는 요금제 및 테마에 맞는 맞춤형 콘텐츠 디자인 구현.',
+        description: 'SK텔링크 SK7모바일 운영 대행. UI/UX 개편을 통한 멤버십 개선 작업으로 고객에게 맞춤 정보를 제공하고, 맞춤형 콘텐츠 디자인 구현.',
         deliverables: '웹/모바일 디자인, 이벤트 페이지, 멤버십 UI 개선안',
-        tools: ['Photoshop', 'Illustrator', 'Figma'],
+        tools: ['Figma', 'Photoshop'],
         achievements: '멤버십 UI/UX 개편, 맞춤형 콘텐츠 디자인 체계 구축'
+    },
+    {
+        title: '현대백화점 웹사이트/모바일 운영 디자인',
+        period: '2018.09 — 2019.12',
+        company: '펜타브리드',
+        role: '웹/모바일 운영 디자인',
+        description: '현대백화점 대구점 플랫폼 구축, 현대시티아울렛 쇼핑안내 및 카톡플친 콘텐츠 디자인(PI). 브랜드 컨셉 확립.',
+        deliverables: '콘텐츠 디자인, 쇼핑안내 페이지, 제휴카드 이벤트 페이지',
+        tools: ['Photoshop', 'Illustrator'],
+        achievements: '대구점 브랜드 아이덴티티 확립, 모바일 최적화 콘텐츠 제작'
     },
     {
         title: '현대어린이책미술관(MOKA) 플랫폼 운영',
         period: '2018.09 — 2019.12',
-        company: 'PENTABREED / DESIGN PL',
-        role: '플랫폼 운영 대행 / 콘텐츠 디자인',
-        description: '현대어린이책미술관 Platform 운영 대행. 아이들 눈높이에 맞춘 정보전달의 구성으로 교육 페이지 및 이벤트 디자인 전체 작업. 스타일 가이드에 맞춰 각 주제별 특징을 두고 플랫폼 내에서 통일한 브랜드 아이덴티티 경험하도록 디자인을 제작.',
-        deliverables: '콘텐츠 페이지 디자인, 교육 프로그램 안내, APP 다운로드 페이지',
+        company: '펜타브리드',
+        role: '디자인 PL',
+        description: '현대어린이책미술관 Platform 운영. 아이들 눈높이에 맞춘 교육 페이지 및 이벤트 디자인. 디자인 가이드 확립을 통한 웹사이트 시각 구조 체계화.',
+        deliverables: '콘텐츠 페이지 디자인, 교육 프로그램 안내, 디자인 가이드',
         tools: ['Photoshop', 'Illustrator'],
-        achievements: '아이 친화적 UI 구현, 브랜드 통일성 유지'
+        achievements: '아이 친화적 UI 구현, 디자인 가이드 확립을 통한 브랜드 시각 체계화'
     },
     {
-        title: '피자헛 E쿠폰 & 선물하기 / 주문 서비스 기획',
-        period: '2020.01 — 2020.06',
-        company: '프리랜서',
-        role: '서비스 기획 / 화면설계',
-        description: '피자헛 E쿠폰&선물하기 모바일 서비스와 주문완료 화면 기획. 메뉴 교환권, 디지털 금액권 선물하기 기능 설계 및 주문완료 후 배달 진행상태 표시 UI 설계.',
-        deliverables: '화면설계서(Wireframe), 주문 플로우 정의',
-        tools: ['Figma', 'Zeplin'],
-        achievements: '선물하기 UX 플로우 설계, 배달 상태 트래킹 UI 구현'
-    },
-    {
-        title: 'HYBE 채용 플랫폼 분석',
-        period: '2021.06 — 2021.08',
-        company: '개인 프로젝트',
-        role: 'UX 리서치 / 분석',
-        description: "HYBE 채용 플랫폼 사용성 분석 및 개선안 도출. 'WHAT MAKES YOUR WORK MEANINGFUL?' 컨셉의 채용 사이트 UX 리서치.",
-        deliverables: '사용성 분석 보고서, 개선안',
-        tools: ['Figma', 'Google Analytics'],
-        achievements: '채용 플로우 개선점 도출, 사용자 여정 맵 작성'
-    },
-    {
-        title: '메가존 이벤트/출석체크 기획',
-        period: '2020.06 — 2020.12',
-        company: 'MEGAZONE',
-        role: '서비스 기획 / 화면설계',
-        description: '부모님댁 장보기 효도 이벤트, 마케팅 수신 동의 및 절차 안내, 출석체크 이벤트 등 다양한 서비스 기획. 플로우차트 작성 및 화면설계.',
-        deliverables: '화면설계서, 플로우차트, 기획서, 테스트케이스',
-        tools: ['Figma', 'Excel', 'PowerPoint'],
-        achievements: '이벤트 참여율 증대 기획, 마케팅 수신 동의 UX 개선'
-    },
-    {
-        title: '고령자 대상 배달 앱 UX 리서치',
-        period: '2019.07 — 2019.11',
-        company: '학술 연구',
-        role: 'UX 리서치 / 프로토타입 테스트',
-        description: '평균 60세 이상의 연령층을 대상으로 한 배달 앱 사용성 연구. 심리적 노화의 세부 특질(감각적, 인지, 지각 저하)을 고려한 디지털 디바이스 중심의 UX 리서치. User survey, Journey Map 작성, Prototype Design 및 사용성 테스트.',
-        deliverables: '선행연구 정리, 사용자 조사 결과, Journey Map, Prototype 디자인, 사용성 테스트 결과',
-        tools: ['Figma', '설문조사 도구'],
-        achievements: '고령자 사용성 이슈 도출, 프로토타입 검증'
+        title: '롯데마트 운영기획',
+        period: '2018',
+        company: '펜타브리드',
+        role: '콘텐츠 운영 기획',
+        description: '롯데마트 컨텐츠 운영 기획. 시즌별 콘텐츠 디자인 및 운영 효율성 극대화.',
+        deliverables: '시즌별 콘텐츠 디자인, 운영 기획서',
+        tools: ['Photoshop'],
+        achievements: '시즌별 콘텐츠 운영 체계화, 운영 효율성 극대화'
     }
 ];
 
@@ -256,7 +256,7 @@ function initHeroAnimation() {
 // ============================================================
 function initProjectFilters() {
     const filterBtns = document.querySelectorAll('.filter-btn');
-    const cards = document.querySelectorAll('.project-card');
+    const cards = document.querySelectorAll('.pj-card');
 
     filterBtns.forEach(btn => {
         btn.addEventListener('click', () => {
@@ -284,7 +284,7 @@ function initProjectModal() {
     const modal = document.getElementById('projectModal');
     const backdrop = document.getElementById('modalBackdrop');
     const closeBtn = document.getElementById('modalClose');
-    const cards = document.querySelectorAll('.project-card');
+    const cards = document.querySelectorAll('.pj-card');
 
     cards.forEach(card => {
         card.addEventListener('click', () => {
@@ -328,6 +328,7 @@ function initProjectModal() {
 // ============================================================
 function initContactForm() {
     const form = document.getElementById('contactForm');
+    if (!form) return;
 
     form.addEventListener('submit', (e) => {
         e.preventDefault();
